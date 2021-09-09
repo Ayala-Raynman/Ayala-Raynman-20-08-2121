@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Ayala-Raynman-20-08-2121/static/css/main.7a9d30f9.chunk.css",
+    "main.js": "/Ayala-Raynman-20-08-2121/static/js/main.525cee5b.chunk.js",
+    "main.js.map": "/Ayala-Raynman-20-08-2121/static/js/main.525cee5b.chunk.js.map",
+    "runtime-main.js": "/Ayala-Raynman-20-08-2121/static/js/runtime-main.ef53814a.js",
+    "runtime-main.js.map": "/Ayala-Raynman-20-08-2121/static/js/runtime-main.ef53814a.js.map",
+    "static/css/2.b0bc1e73.chunk.css": "/Ayala-Raynman-20-08-2121/static/css/2.b0bc1e73.chunk.css",
+    "static/js/2.15225580.chunk.js": "/Ayala-Raynman-20-08-2121/static/js/2.15225580.chunk.js",
+    "static/js/2.15225580.chunk.js.map": "/Ayala-Raynman-20-08-2121/static/js/2.15225580.chunk.js.map",
+    "static/js/3.9e402db3.chunk.js": "/Ayala-Raynman-20-08-2121/static/js/3.9e402db3.chunk.js",
+    "static/js/3.9e402db3.chunk.js.map": "/Ayala-Raynman-20-08-2121/static/js/3.9e402db3.chunk.js.map",
+    "index.html": "/Ayala-Raynman-20-08-2121/index.html",
+    "static/css/2.b0bc1e73.chunk.css.map": "/Ayala-Raynman-20-08-2121/static/css/2.b0bc1e73.chunk.css.map",
+    "static/css/main.7a9d30f9.chunk.css.map": "/Ayala-Raynman-20-08-2121/static/css/main.7a9d30f9.chunk.css.map",
+    "static/js/2.15225580.chunk.js.LICENSE.txt": "/Ayala-Raynman-20-08-2121/static/js/2.15225580.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ef53814a.js",
+    "static/css/2.b0bc1e73.chunk.css",
+    "static/js/2.15225580.chunk.js",
+    "static/css/main.7a9d30f9.chunk.css",
+    "static/js/main.525cee5b.chunk.js"
+  ]
+}

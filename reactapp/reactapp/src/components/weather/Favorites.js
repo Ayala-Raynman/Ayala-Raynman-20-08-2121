@@ -43,7 +43,7 @@ export default function Favorites() {
     function temperatora(locationKey) {
 
         console.log(locationKey)
-        return axios.get('http://dataservice.accuweather.com/currentconditions/v1/' + locationKey + '?apikey=' + APIKEY + '&language=en&details=false')
+        return axios.get('https://dataservice.accuweather.com/currentconditions/v1/' + locationKey + '?apikey=' + APIKEY + '&language=en&details=false')
             .then(res => res.data);
 
     }

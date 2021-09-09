@@ -43,7 +43,7 @@ export default function Home() {
     }, []);
     //get function to autocomplete
     function getlocation() {
-        return axios.get('http://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=' + APIKEY + '&q=' + letter + '&language=en')
+        return axios.get('https://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=' + APIKEY + '&q=' + letter + '&language=en')
             .then(res => res.data);
     }
     //insert the autocomplete to list
@@ -57,7 +57,7 @@ export default function Home() {
 
     //get function for finding the temperature of a particular city
     async function findTemperature(locationKey) {
-        return axios.get("http://dataservice.accuweather.com/currentconditions/v1/" + locationKey + "?apikey=" + APIKEY + "&details=true&language=en")
+        return axios.get("https://dataservice.accuweather.com/currentconditions/v1/" + locationKey + "?apikey=" + APIKEY + "&details=true&language=en")
             .then(res => res.data);
 
     }
@@ -68,7 +68,7 @@ export default function Home() {
     }
     //get function for finding a forecast for the next 5 days
     function tempfor5days(locationKey) {
-        return axios.get('http://dataservice.accuweather.com/forecasts/v1/daily/5day/' + locationKey + '?apikey=' + APIKEY + '&language=en&details=false&metric=false')
+        return axios.get('https://dataservice.accuweather.com/forecasts/v1/daily/5day/' + locationKey + '?apikey=' + APIKEY + '&language=en&details=false&metric=false')
             .then(res => res.data);
     }
     //Update temperature details for 5 days
